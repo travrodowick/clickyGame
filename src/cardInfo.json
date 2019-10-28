@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Panarin", "image": "./pics/artemiPanarin.jpg" },
+  { "id": 2, "name": "Matthews", "image": "./pics/austonMatthews.jpg" },
+  { "id": 3, "name": "Burns", "image": "./pics/brentBurns.jpg" },
+  { "id": 4, "name": "Pastrnak", "image": "./pics/davidPastrnak.jpg" },
+  { "id": 5, "name": "Karlsson", "image": "./pics/erikKarlsson.jpg" },
+  { "id": 6, "name": "Malkin", "image": "./pics/evgeniMalkin.jpg" },
+  { "id": 7, "name": "Tavares", "image": "./pics/johnTavares.jpg" },
+  { "id": 8, "name": "Kucherov", "image": "./pics/nikitaKucherov.jpg" },
+  { "id": 9, "name": "Kane", "image": "./pics/patrickKane.jpg" }
+]

@@ -1,7 +1,15 @@
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black 2px;
+}
+
 #title {
   float: left;
+  margin-left: 10%;
 }
 
 .scores {
   float: right;
+  margin-right: 10%;
 }
