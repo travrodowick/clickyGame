@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import { Row, Col, Container } from "./components/Grid/grid.js";
 import Board from "./components/Board";
+import GameOver from "./components/resetButton";
 // import characters from "./cardInfo.json";
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
   // const [clicked, setClicked] = useState([]);
   // const [score, setScore] = useState(0);
-  const [topScore, setTopScore] = useState(0);
+  // const [topScore, setTopScore] = useState(0);
   // const [cards, setCards] = useState([]);
 
   // const handleInput = id => {
@@ -45,12 +46,8 @@ const App = () => {
   return (
     <div>
       <Container fluid>
-        <Row>
-          <Col size="md-12">
-            <Nav />
-          </Col>
-        </Row>
         <Board />
+        <GameOver />
       </Container>
     </div>
   );
